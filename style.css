@@ -1,0 +1,93 @@
+body{
+    font-size: 25px;
+    text-align: center;
+    background-image: url("./img/Frame\ 2.png");
+    background-size: cover;
+}
+
+.coffeeBoxes{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.coffeeBoxes_left{
+    color: white;
+    width: 50%;
+    background-color: rgb(52, 52, 52);
+    padding: 20px;
+    border-radius: 10px;
+}
+.coffeeBoxes_right {
+    width: 50%;
+}
+.coffeeBoxes_right img{
+    width: 100%;
+    height: 90%;
+}
+.boxBtn{
+    display: flex;
+    flex-direction: column;
+}
+.startEnd{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+.coffeeTaste{
+    display: flex;
+}
+.tasteBlock{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.component{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.comBtn {
+    color: white;
+    border: rgb(248, 190, 84) solid 4px;
+    width: 30%;
+    background-color: rgb(23, 23, 23);
+    transition: 0.3s ease;
+}
+.comBtn:hover {
+    color: black;
+    border: rgb(248, 190, 84) solid 4px;
+    background-color: rgb(248, 190, 84);
+}
+.coffeVarient{
+    color: white;
+    border: rgb(248, 190, 84) solid 4px;
+    background-color: rgb(23, 23, 23);
+    transition: 0.3s ease;
+}
+.coffeVarient:hover{
+    color: black;
+    border: rgb(248, 190, 84) solid 4px;
+    background-color: rgb(248, 190, 84);
+}
+
+label{
+    width: 30%;
+}
+.numberMilk{
+    font-size: small;
+}
+.numberWater{
+    font-size: small;
+}
+
+.progressMilk{
+    background-color: white;
+    color: rgb(32, 32, 32);
+}
+.progress{
+    margin-top: 10px;
+    background-color: rgb(32, 32, 32);
+}
